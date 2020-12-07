@@ -1,0 +1,142 @@
+ @font-face{
+      font-family: "Garten.otf";
+      src: url("https://cdn.glitch.com/0b76d155-e685-4614-82e6-6a152f164120%2FGarten.otf?v=1607229800024");
+      }
+
+* {font-family: "Garten.otf";}
+body, html {
+        height: 100%;
+        margin: 0;
+      }
+
+   .bg02 {
+        background-image: url("https://cdn.glitch.com/0b76d155-e685-4614-82e6-6a152f164120%2Fgrass.jpg?v=1607231629364");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bg {
+        background-image: url("https://cdn.glitch.com/0b76d155-e685-4614-82e6-6a152f164120%2Fbgbg.png?v=1607291177109");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .img01 {
+        position: absolute;
+        max-width: 100%;
+        min-width: 80%;
+        left: 10%;
+        top: 84%;
+      }
+      .img02 {
+        position: absolute;
+        max-width: 100%;
+        min-width: 80%;
+        left: 58%;
+        top: 70%;
+      }
+      .img03 {
+        position: absolute;
+        max-width: 100%;
+        min-width: 80%;
+        left: 82%;
+        top: 65%;
+      }
+      .img04 {
+        position: absolute;
+        max-width: 100%;
+        min-width: 80%;
+        left: 70%;
+        top: 57%;
+      }
+      .img05 {
+        position: absolute;
+        max-width: 100%;
+        min-width: 80%;
+        left: 29%;
+        top: 54%;
+      }
+      .img06 {
+        position: absolute;
+        max-width: 100%;
+        min-width: 80%;
+        left: 40%;
+        top: 47%;
+      }
+.collapsible {
+        background-color: whitesmoke;
+        color: #444;
+        cursor: pointer;
+        padding-top: 20px;
+        padding-right:18px;
+        padding-left:18px;
+        padding-bottom:16px;
+        width: 236px;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 15px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+
+      /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+      .active, .collapsible:hover {
+        background-color: #ccc;
+      }
+
+      .content {
+        position: absolute;
+        top: 10.5%;
+        left: 5%;
+        width: 200px;
+        padding: 0 18px;
+        background-color: whitesmoke;
+        text-align: center;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+
+
+/* ABOUT HOVER TEXT*/
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 320px;
+        background-color: olivedrab;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 20px;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        right: 105%;
+      }
+
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      #about{
+        background: whitesmoke;
+        padding-top: 20px;
+        padding-right:18px;
+        padding-left:18px;
+        padding-bottom:16px;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+      }
